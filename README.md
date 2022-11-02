@@ -1,45 +1,5 @@
 # S5-19 | 🏁 Entrega: KImóveis - TypeORM com Relacionamentos
 
-Para inciar este projeto, é necessário instalar as dependências, que serão utilizadas nos testes. Portanto utilize o comando abaixo para instalar tais dependências:
-
-````
-yarn install
-````
-
-
-**Atenção:** é necessário utilizar o `yarn` pois esse projeto foi iniciado com esse gerenciador de pacotes.
-
-Para verificar se já possui o gerenciador yarn instalado utilize o seguinte comando:
-
-````
-yarn --version
-````
-
-Caso não possua o yarn instalado, utilize o comando abaixo para instalar globalmente na sua máquina:
-
-````
-npm install --global yarn
-````
-<br>
-
-
-Essa entrega já está com o Docker configurado, basta preencher as variáveis de ambiente no .env
-
-Basta buildar e subir nossos containers usando o comando padrão:
-````
-docker-compose up --build
-````
-
-ou
-````
-docker compose up --build
-````
-O comando pode variar com a versão do docker compose instalada em sua máquina
-
-***ATENÇÃO:*** a porta utilizada para rodar nosso docker é a `5431`.
-Caso tenha algum problema com essa porta, basta alterá-la no docker-compose.yml.
-
-<br>
 
 # **Sobre os testes**
 
